@@ -52,3 +52,27 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Node modules and frontend artifacts
+node_modules/
+dist/
+.vite/
+*.local
+.env
+.DS_Store
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# EF Core migrations (we keep SQL scripts instead)
+Migrations/
