@@ -14,7 +14,7 @@ import {
   CardContent,
 } from '@mui/material';
 import { apiService } from '../services/api';
-import { WorkQueueOverview } from '../types';
+import type { WorkQueueOverview } from '../types';
 
 export function AdminPage() {
   const [overview, setOverview] = useState<WorkQueueOverview[]>([]);

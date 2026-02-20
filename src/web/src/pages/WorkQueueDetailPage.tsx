@@ -21,7 +21,7 @@ import {
 } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { apiService } from '../services/api';
-import { WorkQueueDetail } from '../types';
+import type { WorkQueueDetail } from '../types';
 
 export function WorkQueueDetailPage() {
   const { id } = useParams<{ id: string }>();

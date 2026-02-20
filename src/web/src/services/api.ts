@@ -1,4 +1,4 @@
-import { WorkQueueListItem, WorkQueueDetail, WorkQueueOverview } from '../types';
+import type { WorkQueueListItem, WorkQueueDetail, WorkQueueOverview } from '../types';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 

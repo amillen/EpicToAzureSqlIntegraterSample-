@@ -21,7 +21,7 @@ import {
   Stack,
 } from '@mui/material';
 import { apiService } from '../services/api';
-import { WorkQueueListItem } from '../types';
+import type { WorkQueueListItem } from '../types';
 
 export function WorkQueueList() {
   const navigate = useNavigate();
